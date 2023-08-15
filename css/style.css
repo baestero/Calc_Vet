@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@200;300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.tittle {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.tittle h2 {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.calc {
+  background: #0c356a;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 6px;
+  margin: 8rem 1rem 2rem;
+  padding: 4rem;
+}
+
+.calc p {
+  font-size: 0.8rem;
+  margin: 0.8rem;
+  font-weight: 300;
+}
+
+#btn {
+  margin: 2rem;
+  height: 2rem;
+  width: 5rem;
+}
+
+.calc input {
+  text-align: center;
+  width: 70%;
+  height: 25px;
+  border-radius: 6px;
+  margin: 0.3rem;
+}
+
+.resultado {
+  display: none;
+  justify-content: space-between;
+  margin: 2rem;
+  font-weight: 700;
+}
+
+#dTotal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.534);
+  border-radius: 6px;
+}
+
+#vMed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.534);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Calc Vet</title>
+</head>
+
+<body>
+
+  <div class="calc">
+
+    <div class="tittle">
+      <h1>Calculadora Veterinária<h1>
+          <h2>Calculo de Dose<h2>
+    </div>
+
+
+    <p>Peso do Paciente(kg)</p>
+    <input id="peso" type="number" placeholder="Peso">
+
+    <p>Dose por quilograma(kg)</p>
+    <input id="dose" type="number" placeholder="Dose">
+
+    <p>Concentração de Medicamento</p>
+    <input id="conc" type="number" placeholder="concentração">
+    <input id="btn" type="button" value="Calcular" onclick=calc()>
+
+  </div>
+
+  <div class="resultado">
+    <div id="dTotal">Dose Total</div>
+    <div id="vMed">Volume do medicamento</div>
+  </div>
+
+</body>
+
+
+<script src="/js/app.js"></script>
+
+</html>
