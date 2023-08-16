@@ -5,34 +5,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/2725680179.js" crossorigin="anonymous"></script>
   <title>Calc Vet</title>
 </head>
 
 <body>
 
-  <div class="calc">
+  <header class="tittle">
+    <h1>Calculadora Dose Veterinária</h1>
+    <div class="dog">
+      <i class="fa-solid fa-shield-dog fa-2xl"></i>
+    </div>
+  </header>
 
-    <div class="tittle">
-      <h1>Calculadora Veterinária<h1>
-          <h2>Calculo de Dose<h2>
+  <section class="form">
+
+
+    <div class="item">
+      <p>Peso do<br>Paciente(kg)</p>
+      <input id="peso" type="number" placeholder="Peso">
+
     </div>
 
+    <div class="item">
+      <p>Dose por<br>quilograma(kg)</p>
+      <input id="dose" type="number" placeholder="Dose">
+    </div>
 
-    <p>Peso do Paciente(kg)</p>
-    <input id="peso" type="number" placeholder="Peso">
+    <div class="item">
+      <p>Concentração<br>de Med.</p>
+      <input id="conc" type="number" placeholder="conc">
+    </div>
 
-    <p>Dose por quilograma(kg)</p>
-    <input id="dose" type="number" placeholder="Dose">
+  </section>
 
-    <p>Concentração de Medicamento</p>
-    <input id="conc" type="number" placeholder="concentração">
+  <div class="btn">
     <input id="btn" type="button" value="Calcular" onclick=calc()>
-
   </div>
 
   <div class="resultado">
     <div id="dTotal">Dose Total</div>
-    <div id="vMed">Volume do medicamento</div>
+    <div id="vMed">Volume do Med.</div>
   </div>
 
 </body>

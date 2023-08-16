@@ -18,6 +18,8 @@ function calc() {
     let resultado = (document.querySelector(".resultado").style.display =
       "flex");
     d4.innerHTML = `Dose Total: <br>${doseTotal} mg`;
-    v5.innerHTML = `Volume do Medicamento: <br>${volumeMedicamento} ml`;
+    v5.innerHTML = `Volume do Medicamento: <br>${volumeMedicamento.toFixed(
+      2
+    )} ml`;
   }
 }
